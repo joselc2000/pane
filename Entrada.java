@@ -7,5 +7,7 @@ public class Entrada {
 
         String apellidosUsuario = JOptionPane.showInputDialog("Ingresa tu apedillo: ");
         System.out.println("Tu apellido es " + apellidosUsuario);
+        System.out.println("Tu nombre completo es " +nombreUsuario + " " + apellidosUsuario);
+
     }
 }
